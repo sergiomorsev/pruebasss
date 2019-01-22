@@ -1,0 +1,19 @@
+.boton {
+  background-color: #353942;
+  color: white;
+  border: 3px solid rgb(247, 243, 243);
+  height: 65px;
+  width: 170px;
+  text-align: center;
+  float: center;
+  padding: 2px;
+  cursor: pointer;
+  text-align: center;
+  /* font-size: 0.875em; */
+  font-family: fantasy;
+
+}
+
+.margen{
+  margin:20px;
+}

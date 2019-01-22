@@ -1,0 +1,18 @@
+<div>
+  <form #formLogin="ngForm" (ngSubmit)="onSubmit(); formLogin.reset();" class="medio">
+    <h2>Iniciar sesión</h2>
+    <p>
+      <label> <strong>Correo electrónico:</strong></label><br>
+      <input  class="hola" type="text" name="nombre" #nombre="ngModel" [(ngModel)]="login.nombre" required>
+
+    </p>
+    <p>
+      <label><strong>Contraseña:</strong> </label><br>
+      <input class="hola" type="text" name="pass" #pass="ngModel" [(ngModel)]="login.pass" required>
+
+    </p>
+
+    <input class="color" type="submit" value="Login" [routerLink]="['/admin']" [disabled]="!formLogin.form.valid">
+  </form>
+
+</div>

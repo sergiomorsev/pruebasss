@@ -1,0 +1,74 @@
+<div class="margenes">
+  <h3 style="text-align: center" class="margen titulo">Actividades</h3>
+  <h5 style="text-align: center" class="color">Estas vacaciones, viva momentos refrescantes y llenos de emoción: piscinas, deportes,
+    excursiones, juegos… ¡y mucho más!</h5>
+</div>
+<div class="margenes">
+  <h3 style="text-align: center" class="margen titulo">Piscinas</h3>
+  <h5 style="text-align: center" class="color">Todo un mundo acuático a su disposición: piscina exterior tematizada con jacuzzi,
+    piscina cubierta climatizada con jacuzzi (cerrada en temporada alta), piscina de niños, servicio de hamacas y
+    toallas* en la piscina y socorrista.</h5>
+</div>
+
+<div class="margenes">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Relájate</h3>
+        <p>Te brindaremos unas vistas que harán olvidarte de los problemas.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+<div class="margenes">
+  <h3 style="text-align: center" class="margen titulo">Deportes</h3>
+  <h5 style="text-align: center" class="color">Padel-Day: jornadas y campeonatos de pádel en las recientemente inauguradas
+    instalaciones frente al hotel y mas hoteles.</h5>
+</div>
+<section class="SectionColumnasImg">
+  <div class="columnas">
+    <img src="assets/img/padel.jpg" class="imgRedonda">
+  </div>
+  <div class="columnas">
+    <img src="assets/img/tiroArco.jpg" class="imgRedonda">
+  </div>
+  <div class="columnas">
+    <img src="assets/img/golf.jpg" class="imgRedonda">
+  </div>
+
+</section>
+<div class="margenes">
+  <h3 style="text-align: center" class="margen titulo">Excursiones</h3>
+  <h5 style="text-align: center" class="color">Descubra Sevilla y su entorno. Muy cerca encontrará: Parque acuático Aquapark
+    (Sevilla) y Parque temático Isla magica.</h5>
+</div>
+<div class="margenes">
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide >
+        <img [src]="imagesExcursion[0]" alt="Random first slide">
+        <div class="carousel-caption">
+          <h3>Relájate</h3>
+          <p>Te brindaremos unas vistas que harán olvidarte de los problemas.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="imagesExcursion[1]" alt="Random second slide">
+        <div class="carousel-caption">
+          <h3>Descansa</h3>
+          <p>Dormirás como si estuvieras en una nube</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+<!-- <div class="margenExcursion">
+  <img src="assets/img/excursion2.jpg">
+</div> -->
+<div class="margenes">
+  <h3 style="text-align: center" class="margen titulo">Para mas información contacte con nosotros por medio de correo
+    electrónico o teléfono</h3>
+  <div class="margenesBull">
+    <p>&bull;<strong>Correo electrónico: </strong>GestionHoteleraSevilla@gmail.com</p>
+    <p>&bull;<strong>Téfono de contacto: </strong>954787878</p>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+.margenes{
+    width: 70%;
+    height: 800%;
+     margin: 20px 200px ; 
+}
+.margen{
+    margin: 20px 60px 20px 0px;
+}
+
+.margenFoto{
+    margin: 20px 60px 20px 150px;
+}
+.margenExcursion{
+
+  text-align: center;
+}
+.titulo{
+    color: #9E64AB ;
+   
+}
+.color{
+color: #9CA0A6;
+}
+.margenesBull{
+    margin: 20px 100px 20px 300px;
+}
+.margenesPrincipal{
+   margin: 20px 80px 40px 80px;
+}
+.SectionColumnasImg{
+    width: 100%;
+    margin:auto 
+}
+.columnas{
+    width:33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin:auto;
+}
+.columnas img{
+    border-radius:150px;
+    width:300px;
+    height:300px;
+    margin: 100px;
+}

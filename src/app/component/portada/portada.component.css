@@ -1,0 +1,97 @@
+.tamaño{
+width:1050px;
+height: 80%;
+}
+.negrita{
+    font-weight:bold;
+}
+.posicion{
+    display: block;
+
+  background-color: #4498E6;
+  bottom: 0;
+  
+  width: 100%;
+  height: 75px;
+  padding-top: 8px;
+}
+.redondo{
+
+border-radius: 4px;
+justify-content:center;
+margin-left: auto;
+ position: relative;
+ }
+ .margenes{
+    width: 70%;
+    height: 800%;
+     margin: 20px 250px;
+
+ }
+ a{
+     width:220px;
+     border: 0;
+    /*cellspacing="0" cellpadding="1"*/
+ }
+ .color{
+     background: #990033;
+     text-align: center;
+     
+ }
+ .color1{
+     background: #ffffff;
+     text-align: center;
+ }
+ .margenCalendario{
+     margin: 0px 50px;
+ }
+ .color2{
+    color: #ffffff;
+    text-align: center;
+}
+.columnas{
+    width:33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin:auto;
+}
+.SectionColumnasImg{
+    width: 100%;
+    margin:auto 
+}
+.hola{
+    height:20px;
+    width: 20px;
+}
+.separacion{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 20%;
+    font: small-caps 100%/200% serif;
+}
+td.linea{
+    border-right: 1px solid #9E64AB  ;
+}
+td.linea3{
+    border-right: 1px solid #9E64AB  ;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+table{
+    margin: 50px;
+}
+.separacion2{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 30px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    font: small-caps 100%/200% serif;
+}

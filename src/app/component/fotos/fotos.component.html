@@ -1,0 +1,46 @@
+<h2 class="titulo">Habitaciones</h2>
+<div class="margenes">
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <img [src]="images[0]" alt="Random first slide">
+        <div class="carousel-caption">
+          <h3>Relájate</h3>
+          <p>Te brindaremos unas vistas que harán olvidarte de los problemas.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[1]" alt="Random second slide">
+        <div class="carousel-caption">
+          <h3>Descansa</h3>
+          <p>Dormirás como si estuvieras en una nube</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[2]" alt="Random third slide">
+        <div class="carousel-caption">
+          <h3>Privavidad</h3>
+          <p>Nadie te podrá molestar.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+<h2>Zonas de disfrute</h2>
+<div class="margenes">
+  <ngb-carousel *ngIf="imagesGym">
+    <ng-template ngbSlide>
+      <img [src]="imagesGym[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Relájate</h3>
+        <p>Te brindaremos unas vistas que harán olvidarte de los problemas.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="imagesGym[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Descansa</h3>
+        <p>Dormirás como si estuvieras en una nube</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

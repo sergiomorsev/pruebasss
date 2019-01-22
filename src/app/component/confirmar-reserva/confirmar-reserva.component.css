@@ -1,0 +1,106 @@
+.borde{
+    border: 2px solid rgb(177, 174, 174);
+    width: 75%;
+    margin:20px;
+}
+.margenes{
+margin:20px; 
+text-align: left;
+}
+/* .borde1{
+width: 100%;
+border-top: 2px solid rgb(177, 174, 174);
+} */
+.formulario{
+    text-align: right;
+    align-items: flex-end;
+    padding: 20px;
+}
+/* form {
+  margin: auto;
+  float: center;
+  padding: 2px;
+  cursor: pointer;
+  display: block;
+  width: 290px;
+  text-align: center;
+
+} */
+.texto{ 
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+}
+.error{
+    color:red;
+}
+.centro{
+    margin:10px;
+}
+.hola{
+    width: 50%;
+    border: 2px solid rgb(177, 174, 174);
+}
+.hola2{
+    display:inline;
+
+}
+.anchura{
+    text-align:center;
+    width: 50%;
+}
+.borde1{
+    border-top: 2px solid rgb(177, 174, 174);
+
+}
+.center{
+    padding: 0px 0px 0px 150px;
+}
+.borde3{
+    border: 2px solid rgb(177, 174, 174);
+    height: 75%;
+    margin:20px;
+}
+.prueba{
+    font:  bold 120% sans-serif;
+}
+button.color1 {
+    border: 1px solid #990033;
+    color: #fff;
+    background: #990033;
+    padding: 20px 20px;
+    border-radius: 3px;
+   
+}
+button.color2:hover {
+    background: #F73E51;
+}
+.borde4{
+    border-top: 2px solid rgb(177, 174, 174);
+    width: 100%;
+    
+}
+img{
+    height: 45px;
+    width: 45px;
+    margin:10px 0px 0px 30px
+}
+.margenes2{
+   margin:0px 0px 20px 70px; 
+    text-align: left;
+}
+img.tamaño{
+    height: 42px;
+    width: 42px;
+    margin:10px 0px 0px 30px
+}
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  button[disabled]:hover{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }

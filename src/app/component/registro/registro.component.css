@@ -1,0 +1,35 @@
+.derecha{
+    text-align: center;
+    color: azure;
+}
+.margenes{
+margin:30px 40px
+}
+.posicion {
+    margin: 0px 20px;
+}
+.medio{
+    margin: auto;
+    float: center;
+    padding: 2px;
+    cursor: pointer;
+    display: block;
+    width: 290px;
+    text-align: center;
+    
+    
+}
+.hola{
+    -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        padding: 0 4px 0 4px;
+        
+}
+.color{
+    -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        padding: 0 4px 0 4px;
+        width:150px; height:40px;
+}

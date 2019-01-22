@@ -1,0 +1,32 @@
+.a{
+    width:220px;
+    border: 0;
+   /*cellspacing="0" cellpadding="1"*/
+}
+.color{
+    background: #990033;
+    text-align: center;
+    
+}
+.color1{
+    background: #ffffff;
+    text-align: center;
+}
+.margenCalendario{
+    margin: 0px 50px;
+}
+.color2{
+   color: #ffffff;
+   text-align: center;
+}
+button.color1 {
+    border: 1px solid #990033;
+    color: #fff;
+    background: #990033;
+    padding: 20px 20px;
+    border-radius: 3px;
+   
+}
+button.color2:hover {
+    background: #F73E51;
+}

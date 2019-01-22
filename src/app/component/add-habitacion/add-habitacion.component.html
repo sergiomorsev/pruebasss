@@ -1,0 +1,19 @@
+<form enctype="multipart/form-data">
+  <div class="borde4">
+    <div class="margenes">
+      <label><strong>Nombre de la habitación:</strong></label><br>
+      <input type="text" />
+    </div>
+    <div class="margenes">
+      <label><strong>Precio:</strong></label><br>
+      <input type="text">
+    </div>
+    <div class="margenes">
+      <label class="margenLabel"><strong>Insertar foto:</strong></label>
+      <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple>
+    </div>
+    <div>
+      <button (click)="envio()" routerLinkActive="active" type="submit" class="letra color1 color2 prueba" [routerLink]="['/resumen']" [disabled]="!formUltimo.form.valid">Añadir habitación</button>
+    </div>
+  </div>
+</form>

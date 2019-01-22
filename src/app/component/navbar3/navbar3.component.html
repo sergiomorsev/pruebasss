@@ -1,0 +1,23 @@
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <div class="row">
+        <div class="col">
+          <div ngbDropdown class="d-inline-block margenes">
+            <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Selecciona</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button class="dropdown-item" [routerLink]="['/addHab']">Añadir una habitacion</button>
+              <button class="dropdown-item" [routerLink]="['/EliminarHuesped']">Eliminar un huésped</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ul>
+  </div>
+</nav>
+
