@@ -9,6 +9,11 @@ form {
   text-align: center;
 
 }
+.mid{
+    margin: auto;
+    float: center;
+    text-align: center;
+}
 .hola{
     -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -23,8 +28,40 @@ form {
         width:200px; height:40px;
     
 }
-.error{
-    color: red;
+
+button.color1 {
+  border: 1px solid #990033;
+  color: #fff;
+  background: #990033;
+  padding: 20px 20px;
+  border-radius: 3px;
+ 
 }
+button.color2:hover {
+  background: #F73E51;
+}
+input.letra[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  button[disabled]:hover{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  .error{
+    color: red;
+  }
+.medio{
+  margin: auto;
+  float: center;
+  padding: 2px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+
+
+}  
 
 
